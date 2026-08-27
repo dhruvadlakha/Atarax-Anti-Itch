@@ -1,0 +1,410 @@
+<!-- ============================================================= -->
+<!-- Dr. Reddy's HCP article — Atarax Anti-Itch Lotion (disease-awareness) -->
+<!-- Article: Why night-time itch in atopic dermatitis is the hidden burden -->
+<!-- tags: Atarax, Atarax Anti-Itch Lotion, atopic dermatitis, eczema, pruritus, itch, night-time itch, nocturnal itch, pediatric dermatology, paediatrics, dermatology, dermatologist, sleep disruption, quality of life, family burden, secondary skin infection, disease burden, symptom burden -->
+<!-- Art direction: Warm-Human + Dark-Dramatic middle band; motif = day->night threshold ("after lights out") -->
+<!-- ============================================================= -->
+
+<style type="text/css">
+  * { border: 0 !important; box-sizing: border-box; font-family: 'AvantGarde Md BT', Arial, Roboto, sans-serif; }
+  table { width: 100%; }
+
+  .nite-wrap {
+    max-width: 820px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    color: #2C3039;
+    font-family: 'AvantGarde Md BT', Arial, Roboto, sans-serif;
+    line-height: 1.5;
+    overflow: hidden;
+  }
+
+  /* ---------- kicker + section titles ---------- */
+  .kicker-wrap { display: inline-flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+  .kicker-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+  .kicker-text {
+    font-size: 11px !important; font-weight: 700 !important;
+    letter-spacing: 1.8px !important; text-transform: uppercase !important; margin: 0 !important;
+  }
+  .sec-title {
+    font-size: 30px !important; font-weight: 700 !important;
+    color: #2C3039 !important; line-height: 1.18 !important; margin: 0 !important; padding: 0 !important;
+  }
+  .sec-title .g { color: #006B2B !important; }
+  .sec-lead {
+    font-size: 15px !important; color: #3E4F59 !important; line-height: 1.65 !important;
+    margin: 12px 0 0 0 !important; padding: 0 !important;
+  }
+
+  /* ---------- HERO ---------- */
+  .nite-banner-td { border-width: 0; padding: 0; }
+  .nite-banner-img { display: block; width: 100%; height: auto; }
+  .illus-label {
+    font-size: 10px !important; color: #9BCBAF !important; text-align: right;
+    letter-spacing: .4px; margin: 6px 10px 0 0 !important; padding: 0 !important;
+  }
+  .title-pill-wrap { position: relative; margin: -44px auto 0 auto; z-index: 3; padding: 0 18px; }
+  .title-pill {
+    background: #FFFFFF; border-radius: 22px;
+    box-shadow: 0 10px 30px rgba(44,48,57,0.16);
+    padding: 22px 34px; max-width: 660px; margin: 0 auto; text-align: center;
+    border-top: 4px solid #008C3A !important;
+  }
+  .title-pill h1 {
+    font-size: 23px !important; font-weight: 700 !important; color: #006B2B !important;
+    margin: 0 !important; padding: 0 !important; line-height: 1.32 !important;
+  }
+  .title-pill h1 sup { color: #008C3A !important; font-size: 60% !important; }
+
+  /* ---------- SECTION SHELL ---------- */
+  .sec { padding: 40px 40px 8px 40px; }
+  .sec-tight { padding: 8px 40px 40px 40px; }
+
+  /* ---------- DIPTYCH (in clinic / at night) ---------- */
+  .diptych { display: flex; align-items: stretch; gap: 0; margin-top: 26px; border-radius: 18px; overflow: hidden; box-shadow: 0 6px 22px rgba(44,48,57,0.10); }
+  .dip-panel { flex: 1 1 0; position: relative; display: flex; flex-direction: column; }
+  .dip-clinic { background: #FBF3EC; }
+  .dip-night { background: #23262E; }
+  .dip-tag {
+    display: inline-flex; align-items: center; gap: 8px;
+    font-size: 12px !important; font-weight: 700 !important; letter-spacing: 2px !important;
+    text-transform: uppercase !important; margin: 0 !important; padding: 18px 22px 12px 22px !important;
+  }
+  .dip-clinic .dip-tag { color: #B4691C !important; }
+  .dip-night .dip-tag { color: #C9B7EC !important; }
+  .dip-chip { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
+  .dip-clinic .dip-chip { background: #F2A900; box-shadow: 0 0 0 4px rgba(242,169,0,0.18); }
+  .dip-night .dip-chip { background: #4B2584; box-shadow: 0 0 0 4px rgba(75,37,132,0.30); }
+  .dip-img { width: 100%; height: 190px; object-fit: cover; display: block; }
+  .dip-cap {
+    font-size: 13px !important; line-height: 1.55 !important; margin: 0 !important; padding: 14px 22px 20px 22px !important;
+  }
+  .dip-clinic .dip-cap { color: #5B4630 !important; }
+  .dip-night .dip-cap { color: #C7CBD4 !important; }
+  /* day->night threshold divider (motif) */
+  .dip-divider { width: 8px; flex-shrink: 0; background: linear-gradient(180deg, #F2A900 0%, #E7A083 32%, #4B2584 78%, #23262E 100%); }
+
+  .bridge {
+    margin: 26px 0 0 0; padding: 20px 26px; border-radius: 14px;
+    background: linear-gradient(90deg, rgba(242,169,0,0.10), rgba(75,37,132,0.12));
+    text-align: center;
+  }
+  .bridge p {
+    margin: 0 !important; padding: 0 !important; font-size: 17px !important; font-weight: 700 !important;
+    color: #2C3039 !important; line-height: 1.4 !important;
+  }
+  .bridge .moon { color: #4B2584 !important; }
+
+  /* ---------- SECTION B — after lights out ---------- */
+  .dusk { background: #F3F5F2; padding: 40px; margin-top: 8px; }
+  .dusk-grid { display: flex; gap: 26px; align-items: stretch; margin-top: 24px; }
+  .dusk-media { flex: 0 0 44%; border-radius: 16px; overflow: hidden; box-shadow: 0 6px 20px rgba(44,48,57,0.12); position: relative; }
+  .dusk-media img { width: 100%; height: 100%; min-height: 260px; object-fit: cover; display: block; }
+  .dusk-obs { flex: 1 1 0; display: flex; flex-direction: column; gap: 12px; }
+  .obs-card {
+    background: #FFFFFF; border-radius: 12px; padding: 15px 18px;
+    border-left: 4px solid #4B2584 !important;
+    box-shadow: 0 2px 8px rgba(44,48,57,0.06);
+    display: flex; align-items: center; gap: 14px;
+  }
+  .obs-ico {
+    width: 34px; height: 34px; border-radius: 50%; flex-shrink: 0;
+    background: rgba(75,37,132,0.10); display: flex; align-items: center; justify-content: center;
+  }
+  .obs-ico span { display: block; width: 12px; height: 12px; border-radius: 50%; background: #4B2584; }
+  .obs-card p { margin: 0 !important; padding: 0 !important; font-size: 15px !important; font-weight: 600 !important; color: #2C3039 !important; line-height: 1.4 !important; }
+  .obs-card.red { border-left-color: #E51B2A !important; }
+  .obs-card.red .obs-ico { background: rgba(229,27,42,0.10); }
+  .obs-card.red .obs-ico span { background: #E51B2A; }
+
+  /* ---------- SECTION C — dark night infographic band ---------- */
+  .nightband-td { border-width: 0; padding: 0; }
+  .nightband {
+    background: linear-gradient(160deg, #2C3039 0%, #23262E 45%, #1B2733 100%);
+    padding: 48px 40px 44px 40px; position: relative; overflow: hidden;
+  }
+  .nightband::after {
+    content: ""; position: absolute; right: -60px; top: -40px; width: 240px; height: 240px; border-radius: 50%;
+    background: radial-gradient(circle at 60% 40%, rgba(155,203,175,0.16), transparent 70%);
+    pointer-events: none;
+  }
+  .nb-kicker { color: #9BCBAF !important; }
+  .nb-title { color: #FFFFFF !important; position: relative; z-index: 1; }
+  .nb-sub { color: #AEB6C2 !important; font-size: 15px !important; line-height: 1.6 !important; margin: 12px 0 0 0 !important; max-width: 620px; position: relative; z-index: 1; }
+
+  .nb-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 30px; position: relative; z-index: 1; }
+  .nb-card {
+    background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.10) !important;
+    border-radius: 14px; padding: 20px 18px;
+  }
+  .nb-card .nb-ico { width: 46px; height: 46px; margin-bottom: 12px; display: block; }
+  .nb-card h4 { font-size: 15px !important; font-weight: 700 !important; color: #FFFFFF !important; margin: 0 0 7px 0 !important; line-height: 1.28 !important; }
+  .nb-card p { font-size: 13px !important; color: #AEB6C2 !important; line-height: 1.55 !important; margin: 0 !important; }
+  .nb-card.infection { border-color: rgba(229,27,42,0.42) !important; }
+
+  .nb-close {
+    margin-top: 30px; padding: 22px 26px; border-radius: 14px; position: relative; z-index: 1;
+    background: rgba(155,203,175,0.10); border-left: 4px solid #2FAE4A !important;
+  }
+  .nb-close p { margin: 0 !important; font-size: 15px !important; line-height: 1.6 !important; color: #E7EBE8 !important; }
+  .nb-close .lead { color: #FFFFFF !important; font-weight: 700 !important; }
+
+  /* day->night gap pill (motif, CSS-only) */
+  .gap-pill { display: inline-flex; align-items: center; gap: 12px; margin-top: 26px; background: rgba(255,255,255,0.06); border-radius: 24px; padding: 9px 16px; position: relative; z-index: 1; }
+  .gp-sun { width: 20px; height: 20px; border-radius: 50%; background: #F2A900; box-shadow: 0 0 10px rgba(242,169,0,0.55); flex-shrink: 0; }
+  .gp-bar { width: 110px; height: 4px; border-radius: 2px; background: linear-gradient(90deg, #F2A900, #E7A083 40%, #4B2584 85%); }
+  .gp-moon { width: 20px; height: 20px; border-radius: 50%; background: #C9B7EC; box-shadow: inset -6px -2px 0 0 #4B2584; flex-shrink: 0; }
+  .gp-txt { font-size: 12px !important; letter-spacing: 1.2px !important; text-transform: uppercase !important; color: #C7CBD4 !important; margin: 0 0 0 4px !important; font-weight: 700 !important; }
+
+  /* ---------- SECTION E — green reassurance close ---------- */
+  .close-band { padding: 44px 40px; background: linear-gradient(180deg, #FFFFFF, #F3F5F2); }
+  .endbox {
+    background: rgba(155,203,175,0.20);
+    border-left: 5px solid #008C3A !important; border-right: 5px solid #008C3A !important;
+    border-radius: 8px; padding: 34px 30px; text-align: center; max-width: 720px; margin: 0 auto;
+  }
+  .endbox .eb-lead { font-size: 21px !important; font-weight: 700 !important; color: #006B2B !important; margin: 0 0 10px 0 !important; line-height: 1.3 !important; }
+  .endbox .eb-body { font-size: 16px !important; color: #2C3039 !important; margin: 0 0 14px 0 !important; line-height: 1.55 !important; }
+  .endbox .eb-ask {
+    display: inline-block; font-size: 14px !important; font-weight: 700 !important; letter-spacing: .3px;
+    color: #FFFFFF !important; background: #008C3A; padding: 10px 22px; border-radius: 24px; margin: 0 !important;
+  }
+
+  /* ---------- FOOTER / compliance ---------- */
+  .footer-sec { padding: 8px 40px 34px 40px; }
+  .footer-sec .refs-h { color: #006B2B !important; font-size: 12px !important; line-height: 14px; margin: 0; padding: 8px 0 0 0 !important; font-weight: 700 !important; }
+  ol.ref { color: #666666 !important; font-size: 12px !important; line-height: 155% !important; padding: 6px 0 6px 18px !important; margin: 0 !important; }
+  ol.ref li { margin: 0 0 4px 0 !important; padding: 0 !important; }
+  ol.ref li a { color: #2C3039 !important; text-decoration: underline; word-break: break-word; }
+  ol.ref li a:hover { color: #008C3A !important; }
+  .mlr-line { color: #666666 !important; font-size: 12px !important; line-height: 155% !important; padding: 5px 0 !important; margin: 0 !important; }
+  .mlr-line strong.code { color: #2C3039 !important; }
+  .mlr-line strong.dis { color: #008C3A !important; }
+  .todo { background: #ffff00; padding: 0 4px; }
+
+  /* ===================== RESPONSIVE ===================== */
+  @media (max-width: 768px) {
+    .sec, .sec-tight, .dusk, .nightband, .close-band, .footer-sec { padding-left: 26px !important; padding-right: 26px !important; }
+    .sec-title { font-size: 25px !important; }
+    .title-pill h1 { font-size: 20px !important; }
+    .diptych { flex-direction: column; }
+    .dip-divider { width: 100%; height: 8px; background: linear-gradient(90deg, #F2A900 0%, #E7A083 32%, #4B2584 78%, #23262E 100%); }
+    .dip-img { height: 200px; }
+    .dusk-grid { flex-direction: column; }
+    .dusk-media { flex: 1 1 auto; }
+    .dusk-media img { min-height: 210px; }
+    .nb-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 480px) {
+    .sec, .sec-tight, .dusk, .nightband, .close-band, .footer-sec { padding-left: 17px !important; padding-right: 17px !important; }
+    .title-pill-wrap { margin-top: -32px; padding: 0 12px; }
+    .title-pill { padding: 18px 20px; }
+    .title-pill h1 { font-size: 18px !important; }
+    .sec-title { font-size: 22px !important; }
+    .bridge p { font-size: 15px !important; }
+    .nb-grid { grid-template-columns: 1fr; }
+    .gp-bar { width: 70px; }
+    .endbox .eb-lead { font-size: 18px !important; }
+    .endbox .eb-body { font-size: 15px !important; }
+    .illus-label { font-size: 9px !important; }
+  }
+</style>
+
+<!-- ============================================================= -->
+<div class="nite-wrap">
+
+  <!-- ────────────── HERO: banner (image asset) ────────────── -->
+  <table style="overflow:hidden;width:100%;" align="center" border="0" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <!-- TODO_MLR: replace with approved banner asset from HCP article library -->
+        <td class="nite-banner-td" bgcolor="#23262E">
+          <img class="nite-banner-img"
+               src="C:\Users\p00089589\OneDrive - Dr. Reddy's Laboratories Ltd\Documents\MHub and MHub Studio\MHub Studio\DocVidya - Landing Pages\Sample Images\Atarax Banner.png"
+               alt="A young child settling into bed at dusk in a warm home bedroom, calm reassuring mood — atopic dermatitis night-time itch article banner — TODO_MLR"
+               width="100%" height="360">
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="illus-label"></p>
+
+  <!-- ────────────── TITLE PILL (fixed element) ────────────── -->
+  <div class="title-pill-wrap">
+    <div class="title-pill">
+      <h1>Why does itch due to atopic dermatitis often seem much worse after bedtime?<sup>1-3</sup></h1>
+    </div>
+  </div>
+
+  <!-- ────────────── SECTION A: same child, two stories ────────────── -->
+  <div class="sec">
+    <div class="kicker-wrap">
+      <span class="kicker-dot" style="background:#008C3A;"></span>
+      <span class="kicker-text" style="color:#006B2B;">The same child, two stories</span>
+    </div>
+    <h2 class="sec-title">Manageable in clinic. <span class="g">Miserable after bedtime.</span></h2>
+    <p class="sec-lead">Why does a child with itch due to atopic dermatitis seem manageable in your clinic &mdash; yet miserable once the lights go out at home? The daytime examination and the night-time reality can tell two very different stories.</p>
+
+    <!-- Diptych: IN CLINIC (day) | threshold | AT NIGHT -->
+    <div class="diptych">
+      <div class="dip-panel dip-clinic">
+        <p class="dip-tag"><span class="dip-chip"></span>In clinic</p>
+        <!-- TODO_MLR: replace with approved in-clinic image -->
+        <img class="dip-img"
+             src="C:\Users\p00089589\OneDrive - Dr. Reddy's Laboratories Ltd\Documents\MHub and MHub Studio\MHub Studio\DocVidya - Landing Pages\Sample Images\Atarax Inclinic.png"
+             alt="Calm daytime clinic scene: an infant with a paediatrician during examination, skin appears settled — TODO_MLR">
+        <p class="dip-cap">Under bright clinic light, the skin can look settled and the child appears comfortable.</p>
+      </div>
+
+      <div class="dip-divider" aria-hidden="true"></div>
+
+      <div class="dip-panel dip-night">
+        <p class="dip-tag"><span class="dip-chip"></span>At night</p>
+        <!-- TODO_MLR: replace with approved at-night image -->
+        <img class="dip-img"
+             src="C:\Users\p00089589\OneDrive - Dr. Reddy's Laboratories Ltd\Documents\MHub and MHub Studio\MHub Studio\DocVidya - Landing Pages\Sample Images\Atarax In night at home.png"
+             alt="Night-time home scene: an infant awake and unsettled with a mother comforting the child in dim bedroom light — TODO_MLR">
+        <p class="dip-cap">At home after dark, the same child may scratch, wake and struggle to settle.</p>
+      </div>
+    </div>
+
+    <div class="bridge">
+      <p>The real burden may begin <span class="moon">after lights out.</span></p>
+    </div>
+  </div>
+
+  <!-- ────────────── SECTION B: after lights out ────────────── -->
+  <div class="dusk">
+    <div class="kicker-wrap">
+      <span class="kicker-dot" style="background:#4B2584;"></span>
+      <span class="kicker-text" style="color:#4B2584;">After lights out</span>
+    </div>
+    <h2 class="sec-title">The story often changes once the room goes dark.</h2>
+
+    <div class="dusk-grid">
+      <div class="dusk-media">
+        <!-- TODO_MLR: replace with approved night-scene image -->
+        <img src="C:\Users\p00089589\OneDrive - Dr. Reddy's Laboratories Ltd\Documents\MHub and MHub Studio\MHub Studio\DocVidya - Landing Pages\Sample Images\Night Scene.png"
+             alt="An infant unsettled and irritable at night while a mother sits nearby looking anxious and helpless in a dim bedroom — TODO_MLR">
+      </div>
+      <div class="dusk-obs">
+        <div class="obs-card red">
+          <span class="obs-ico"><span></span></span>
+          <p>He scratches most at night.</p>
+        </div>
+        <div class="obs-card">
+          <span class="obs-ico"><span></span></span>
+          <p>Bedtime has become stressful.</p>
+        </div>
+        <div class="obs-card">
+          <span class="obs-ico"><span></span></span>
+          <p>He wakes up repeatedly.</p>
+        </div>
+        <div class="obs-card">
+          <span class="obs-ico"><span></span></span>
+          <p>Nobody sleeps properly.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ────────────── SECTION C: why night-time symptoms matter (dark band) ────────────── -->
+  <table style="overflow:hidden;width:100%;" align="center" border="0" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td class="nightband-td" bgcolor="#23262E">
+          <div class="nightband">
+            <div class="kicker-wrap">
+              <span class="kicker-dot" style="background:#9BCBAF;"></span>
+              <span class="kicker-text nb-kicker">Why night-time symptoms matter</span>
+            </div>
+            <h2 class="sec-title nb-title">Night-time itch may reflect more than visible skin findings.</h2>
+            <p class="nb-sub">The examination captures a moment; the night captures the burden. These are the consequences that rarely show up in a daytime consultation.</p>
+
+            <div class="nb-grid">
+              <!-- 1 -->
+              <div class="nb-card">
+                <!-- TODO_MLR: icon 1 -->
+                <img class="nb-ico" src="C:\Users\p00089589\OneDrive - Dr. Reddy's Laboratories Ltd\Documents\MHub and MHub Studio\MHub Studio\DocVidya - Landing Pages\Sample Images\Sleep disruption.png" alt="Sleep disruption icon">
+                <h4>Sleep disruption</h4>
+                <p>Poor sleep affects recovery and daytime function.<sup>2,3</sup></p>
+              </div>
+              <!-- 2 -->
+              <div class="nb-card">
+                <!-- TODO_MLR: icon 2 -->
+                <img class="nb-ico" src="C:\Users\p00089589\OneDrive - Dr. Reddy's Laboratories Ltd\Documents\MHub and MHub Studio\MHub Studio\DocVidya - Landing Pages\Sample Images\Behavioural impact.png" alt="Behavioural impact icon">
+                <h4>Behavioural impact</h4>
+                <p>Irritability, poor concentration and mood changes.<sup>2,3</sup></p>
+              </div>
+              <!-- 3 -->
+              <div class="nb-card">
+                <!-- TODO_MLR: icon 3 -->
+                <img class="nb-ico" src="C:\Users\p00089589\OneDrive - Dr. Reddy's Laboratories Ltd\Documents\MHub and MHub Studio\MHub Studio\DocVidya - Landing Pages\Sample Images\Family burden.png" alt="Family burden icon">
+                <h4>Family burden</h4>
+                <p>Impacts parents, siblings and overall family well-being.<sup>3</sup></p>
+              </div>
+              <!-- 4 -->
+              <div class="nb-card">
+                <!-- TODO_MLR: icon 4 -->
+                <img class="nb-ico" src="C:\Users\p00089589\OneDrive - Dr. Reddy's Laboratories Ltd\Documents\MHub and MHub Studio\MHub Studio\DocVidya - Landing Pages\Sample Images\Under-recognized severity.png" alt="Under-recognized severity icon">
+                <h4>Under-recognized severity</h4>
+                <p>Skin may look better in clinic, but the night-time burden tells the real story.<sup>2</sup></p>
+              </div>
+              <!-- 5 -->
+              <div class="nb-card">
+                <!-- TODO_MLR: icon 5 -->
+                <img class="nb-ico" src="C:\Users\p00089589\OneDrive - Dr. Reddy's Laboratories Ltd\Documents\MHub and MHub Studio\MHub Studio\DocVidya - Landing Pages\Sample Images\Decreased quality of life.png" alt="Quality of life icon">
+                <h4>Decreased quality of life</h4>
+                <p>For child and caregiver &mdash; affecting daily activities, school performance and emotional well-being.<sup>2,3</sup></p>
+              </div>
+              <!-- 6 -->
+              <div class="nb-card infection">
+                <!-- TODO_MLR: icon 6 -->
+                <img class="nb-ico" src="C:\Users\p00089589\OneDrive - Dr. Reddy's Laboratories Ltd\Documents\MHub and MHub Studio\MHub Studio\DocVidya - Landing Pages\Sample Images\Risk of secondary skin infection.png" alt="Secondary skin infection icon">
+                <h4>Risk of secondary skin infection</h4>
+                <p>Intense scratching can break the skin barrier, increasing infection risk.<sup>1,2</sup></p>
+              </div>
+            </div>
+
+            <div class="gap-pill" aria-hidden="true">
+              <span class="gp-sun"></span>
+              <span class="gp-bar"></span>
+              <span class="gp-moon"></span>
+              <span class="gp-txt">Day exam &rarr; night burden</span>
+            </div>
+
+            <div class="nb-close">
+              <p><span class="lead">Visible skin findings may not reflect actual disease burden.<sup>2</sup></span> Listening to the night-time story helps us understand the full picture of itch due to atopic dermatitis.</p>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- ────────────── SECTION E: reassurance close ────────────── -->
+  <div class="close-band">
+    <div class="endbox">
+      <p class="eb-lead">Night-time itch is not just a symptom.</p>
+      <p class="eb-body">It may be the hidden burden of itch due to atopic dermatitis.<sup>1-3</sup></p>
+      <span class="eb-ask">Worth asking about routinely.</span>
+    </div>
+  </div>
+
+  <!-- ────────────── REFERENCES + LMRC + DISCLAIMER ────────────── -->
+  <div class="footer-sec">
+    <p class="refs-h">References:</p>
+    <ol class="ref">
+      <!-- TODO_MLR: reference 1 citation is incomplete in the brief (title/subtitle scrambled; journal, year and URL missing) — verify full citation and online link -->
+      <li>Anandan V, Baskar CV, Sharma R. Revisiting the role of hydroxyzine in the management of pediatric pruritus: a current thinking of the Indian Academy of Pediatrics. [online]. <strong class="todo">TODO_MLR: confirm full citation, source and URL</strong></li>
+      <li>Shah Y, Patidar A, Meena M, Jain M, Mittal A, Balai M. Clinical aspect of pruritus in pediatric atopic dermatitis: a study from Western India. Indian J Paediatr Dermatol. 2023 Apr-Jun;24(2):116-120. <a href="https://doi.org/10.4103/ijpd.ijpd_24_22" target="_blank">doi:10.4103/ijpd.ijpd_24_22</a></li>
+      <!-- TODO_MLR: reference 3 URL missing in the brief -->
+      <li>American Academy of Pediatrics. Burden of atopic dermatitis. Updated March 3, 2026. Accessed May 18, 2026. <strong class="todo">TODO_MLR: insert source URL</strong></li>
+    </ol>
+
+    <p class="mlr-line"><strong class="code">LMRC Code:</strong> GG-IN.28.05.2026.4299</p>
+    <p class="mlr-line"><strong class="dis">Disclaimer:</strong> Images only for illustration purposes. Not a real person. For the use of a registered medical practitioner, hospital or laboratory only. No part of this content may be used, reproduced, transmitted, or stored in any form without written permission by Dr. Reddy&rsquo;s. This communication is restricted for the use of HCPs and must not be shared in public domain. This presentation may contain off label usage of drug(s) aimed at educational purposes only. Dr. Reddy&rsquo;s Laboratories Ltd does not recommend any off-label usage of its products. Prior to treatment, kindly refer to the latest prescribing information. All content including text, images, audio, or any other formats contained in this communication are for informational purposes only. Opinions expressed do not necessarily reflect the views of Dr. Reddy&rsquo;s.</p>
+  </div>
+
+</div>
+<!-- ============================================================= -->
